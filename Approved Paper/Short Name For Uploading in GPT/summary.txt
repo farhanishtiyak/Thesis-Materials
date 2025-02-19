@@ -1,0 +1,5 @@
+RLBEEP_Reinforcement-Learning-Based_Energy_Efficient_Control_and_Routing_Protocol_for_Wireless_Sensor_Networks
+--------------------------------------------------------------------------------------------------------------------------
+RLBEEP (Reinforcement-Learning-Based Energy Efficient Protocol), a protocol that combines three key approaches to improve wireless sensor network lifetime: reinforcement learning-based routing, sleep scheduling, and restricted data transmission. The routing phase uses Q-learning to optimize path selection based on residual energy and hop count. The sleep scheduling component manages node energy by switching between active and sleep states, while the restricted data transmission phase reduces energy consumption by only transmitting sensor data when significant changes occur. Their simulation results demonstrated that RLBEEP outperformed existing methods like RLBR and DADF in terms of network lifetime and percentage of alive nodes. However, the authors noted that the method requires significant processing power at the sink node to execute the learning process.
+
+

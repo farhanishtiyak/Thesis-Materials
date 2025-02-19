@@ -1,0 +1,46 @@
+
+Optimizing_the_Lifetime_of_Software_Defined_Wireless_Sensor_Network_via_Reinforcement_Learning
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+This paper explores optimizing the lifetime of Software-Defined Wireless Sensor Networks (SDWSNs) using Reinforcement Learning (RL). The authors combine RL with SDN architecture, where the SDN controller acts as an agent to learn network behavior and optimize routing paths. They propose four different reward functions to improve network lifetime and reduce energy consumption. The SDN controller generates routing tables using Spanning Tree Protocol (STP) and selects the best path based on rewards in the form of estimated path lifetime loss. The study compares RL-based SDWSN performance with traditional RL-based WSN techniques, showing improvements of 23-30% in network lifetime. The RL-based SDWSN also demonstrates faster network convergence rates. Experiments were conducted on a real testbed using Raspberry Pi devices, with energy consumption calculated through simulation. The results indicate that hop-based Minimum Spanning Trees (MSTs) perform better than distance-based MSTs in terms of network lifetime. Overall, the paper presents a promising approach for enhancing WSN performance through the combination of SDN and RL techniques.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Improving_the_Software-Defined_Wireless_Sensor_Networks_Routing_Performance_Using_Reinforcement_Learning
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+This paper presents a novel approach to optimize routing performance in Software-Defined Wireless Sensor Networks (SDWSNs) using Reinforcement Learning (RL). The authors propose a QoS-based reward function that incorporates various metrics related to energy efficiency and network Quality-of-Service (QoS) to select the best routing path. Their method involves an intelligent SDN controller that learns optimal routing paths based on previous experiences and rewards received. The SDWSN architecture is combined with RL techniques to efficiently manage the network and improve performance. The researchers developed a real-time experimental platform using Raspberry Pi devices and created a web-based dashboard for remote monitoring of sensor nodes. They compared their RL-based SDWSN approach with both SDN-based and non-SDN-based techniques, demonstrating improvements in network lifetime (8-33%) and packet delivery ratio (2-24%). The study highlights the potential of combining SDN and RL for achieving better routing decisions and overall network performance in WSNs.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+RLBEEP_Reinforcement-Learning-Based_Energy_Efficient_Control_and_Routing_Protocol_for_Wireless_Sensor_Networks
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+RLBEEP (Reinforcement-Learning-Based Energy Efficient Protocol), a protocol that combines three key approaches to improve wireless sensor network lifetime: reinforcement learning-based routing, sleep scheduling, and restricted data transmission. The routing phase uses Q-learning to optimize path selection based on residual energy and hop count. The sleep scheduling component manages node energy by switching between active and sleep states, while the restricted data transmission phase reduces energy consumption by only transmitting sensor data when significant changes occur. Their simulation results demonstrated that RLBEEP outperformed existing methods like RLBR and DADF in terms of network lifetime and percentage of alive nodes. However, the authors noted that the method requires significant processing power at the sink node to execute the learning process.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+EER-RL
+----------------------------------------------------------------------------------------------------------------------------------
+EER-RL (Energy-Efficient Routing based on Reinforcement Learning) combines Q-learning with cluster-based routing to optimize energy efficiency in IoT wireless networks. The protocol operates through three distinct phases working in concert: routing, clustering, and data transmission.
+The routing phase leverages Q-learning to make intelligent path selections, considering device residual energy levels, hop count to destination, and proximity to the base station. This adaptive approach allows the network to respond dynamically to changing conditions and energy states. Meanwhile, the clustering component organizes the network structure by electing cluster heads based on initial Q-values, forming clusters around these heads, and implementing cluster head rotation using energy thresholds to prevent any single node from being depleted.
+During the data transmission phase, the protocol implements its learning mechanism by sharing local information as rewards, updating Q-values based on transmission outcomes, and continuously optimizing next-hop selection. This creates a feedback loop that improves routing decisions over time. The authors developed both cluster-based (EER-RL) and flat-based (FlatEER-RL) versions of the protocol to suit different network sizes.
+Their simulation results demonstrated that EER-RL outperformed existing protocols like LEACH and PEGASIS in terms of network lifetime and energy efficiency. Notably, the cluster-based version showed superior performance in larger networks with more than 50 nodes, while the flat version proved more effective for smaller deployments. The authors acknowledge that future work could enhance the protocol by considering additional parameters beyond energy and hop count for even more optimal routing decisions.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Vehicle Tracking in Wireless Sensor Networks via Deep Reinforcement Learning
+-----------------------------------------------------------------------------------------------------------------------------------
+This paper addresses the challenge of vehicle tracking in wireless sensor networks (WSNs) while balancing tracking accuracy and energy consumption. The authors propose a decentralized tracking strategy that dynamically adjusts the activation area of sensors to optimize both tracking performance and energy efficiency. The key innovation is the use of deep reinforcement learning (DRL) to determine the optimal radius of the activation area. The system model includes a single vehicle and multiple sensor nodes, with tracking performed through vehicle-to-infrastructure (V2I) communication. The authors developed two DRL-based solutions: one using Deep Q-Network (DQN) and another using Deep Deterministic Policy Gradient (DDPG). Through simulations, they demonstrated that their DQN-based approach achieved superior performance compared to conventional Q-learning methods in terms of both tracking accuracy and energy consumption. The paper's findings suggest that dynamic adjustment of the activation area, guided by DRL algorithms, can effectively improve the efficiency of vehicle tracking in WSNs while maintaining good tracking performance.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Reinforcement Learning Based Routing Conservation in Wireless Sensor Network Protocol for Energy
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+This paper presents a reinforcement learning (RL) based routing protocol for energy conservation in wireless sensor networks (WSNs). The authors propose an enhanced clustering-based routing scheme that uses RL to improve energy efficiency and extend network lifetime. The system considers factors like node energy levels and hop count to elect cluster heads and make routing decisions. A probability scheme allows nodes to join clusters based on their energy level rather than fixed assignments. The protocol was simulated in MATLAB using a 100x100m network with 100 nodes. Results showed the approach effectively extended network lifetime, with optimal performance achieved at a probability factor of 0.5. The authors conclude their RL-based method successfully minimized energy consumption while keeping a significant number of nodes operational after 5000 rounds compared to other probability values tested.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
